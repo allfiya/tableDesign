@@ -14,73 +14,132 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
 
-        <style>
-            td div{
-                border: 1px solid rgba(128, 128, 128, 0.5);
-                min-height: 35px !important;
-            }
-        </style>
+    <style>
+        td div {
+            border: 1px solid rgba(128, 128, 128, 0.5);
+            min-height: 35px !important;
+        }
+
+        .table-responsive::-webkit-scrollbar {
+            width: 12px;
+            height: 5px;
+            
+        }
+
+        .table-responsive::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+
+        .table-responsive::-webkit-scrollbar-thumb {
+            background-color: rgba(128, 128, 128, 0.5);
+            border-radius: 10px;
+        }
+    </style>
 </head>
 
 <body style=" user-select: none;">
 
-    <div class="container-fluid"   >
-        <div class="row justify-content-evenly" style="min-height: 100vh; background-color:#F0F3FD ;" >
-            <div class="col-8 pt-5 d-flex flex-column align-items-end" style="background-color: white;">
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Priority</th>
-                        <th scope="col">Prize&nbsp;Name</th>
-                        <th scope="col">Quantity</th>
-                        <th scope="col">Total&nbsp;Sold</th>
-                        <th scope="col">Balance</th>
-                        <th scope="col">Maximum Limit</th>
-                        <th scope="col">Daily/Hourly</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td><div class="py-1 rounded ps-2">3</div></td>
-                        <td><div class="py-1 rounded ps-2">mx</div></td>
-                        <td><div class="py-1 rounded ps-2">3</div></td>
-                        <td><div class="py-1 rounded ps-2">1</div></td>
-                        <td><div class="py-1 rounded ps-2">2</div></td>
-                        <td><div class="py-1 rounded ps-2">5</div></td>
-                        <td><div class="py-1 rounded ps-2">Daily</div></td>
+    <div class="container-fluid">
+        <div class="row justify-content-evenly" style="min-height: 100vh; background-color:#F0F3FD ;">
+            <div class="col-8 pt-5  " style="background-color: white;">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Priority</th>
+                                <th scope="col">Prize&nbsp;Name</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total&nbsp;Sold</th>
+                                <th scope="col">Balance</th>
+                                <th scope="col">Maximum&nbsp;Limit</th>
+                                <th scope="col">Daily/Hourly</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>
+                                    <div class="py-1 rounded ps-2">3</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">abcdefghijklmnopqrstuvwxyz</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">3</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">1</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">2</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">5</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">Daily</div>
+                                </td>
 
 
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td><div class="py-1 rounded ps-2">2</div></td>
-                        <td><div class="py-1 rounded ps-2">abc</div></td>
-                        <td><div class="py-1 rounded ps-2">2</div></td>
-                        <td><div class="py-1 rounded ps-2">1</div></td>
-                        <td><div class="py-1 rounded ps-2">1</div></td>
-                        <td><div class="py-1 rounded ps-2">5</div></td>
-                        <td><div class="py-1 rounded ps-2">Hourly</div></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td><div class="py-1 rounded ps-2">4</div></td>
-                        <td><div class="py-1 rounded ps-2">def</div></td>
-                        <td><div class="py-1 rounded ps-2">4</div></td>
-                        <td><div class="py-1 rounded ps-2">3</div></td>
-                        <td><div class="py-1 rounded ps-2">1</div></td>
-                        <td><div class="py-1 rounded ps-2 "></div></td>
-                        <td><div class="py-1 rounded ps-2 ">Daily</div></td>
-                      </tr>
-                    </tbody>
-                  </table>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>
+                                    <div class="py-1 rounded ps-2">2</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">abc</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">2</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">1</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">1</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">5</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">Hourly</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>
+                                    <div class="py-1 rounded ps-2">4</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">def</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">4</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">3</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2">1</div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2 "></div>
+                                </td>
+                                <td>
+                                    <div class="py-1 rounded ps-2 ">Daily</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-                  <button type="button" class="btn btn-primary me-2 ">Save&nbsp;Changes</button>
+                <button type="button" class="btn btn-primary me-2 mt-3 ">Save&nbsp;Changes</button>
 
             </div>
             <div class="col-3" style="background-color: white;">
-                
+
 
             </div>
 
